@@ -6,11 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".NotificationsActivity">
 
-    <TextView
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Notifications Activity"
-        android:gravity="center"
-        android:textSize="20sp"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/app_bar_layout_noti">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/toolbar_contacts">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Notifications"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TextView>
+
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notifications_list"
+        android:layout_below="@+id/app_bar_layout_noti"
+        android:layout_above="@+id/nav_view">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 </RelativeLayout>

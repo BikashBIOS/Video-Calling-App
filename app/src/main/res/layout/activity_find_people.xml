@@ -23,7 +23,7 @@
                     android:hint="Search"
                     android:drawableLeft="@drawable/search"
                     android:textAlignment="center"
-                    android:marginRight="16dp"
+                    android:layout_marginRight="16dp"
                     android:textColor="@android:color/white"
                     android:layout_centerVertical="true"
                     android:layout_width="match_parent"

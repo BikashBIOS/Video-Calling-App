@@ -36,10 +36,13 @@ dependencies {
     implementation 'com.hbb20:ccp:2.1.9'  //country phone code receiver library
     implementation 'pub.devrel:easypermissions:0.4.0'
     implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'androidx.navigation:navigation-fragment:2.2.2'
     implementation 'androidx.navigation:navigation-ui:2.2.2'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     testImplementation 'junit:junit:4.12'
+    implementation 'com.opentok.android:opentok-android-sdk:2.15.3'
+    implementation 'pub.devrel:easypermissions:0.4.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
